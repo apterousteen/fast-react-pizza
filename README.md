@@ -16,6 +16,6 @@
 
 ## Скриншоты
 
-<img src="https://github.com/apterousteen/fast-react-pizza/assets/71407842/0d9d071b-4578-4d62-aa9d-364942c949e5" height="430px" alt="desktop-screenshot">
-<img src="https://github.com/apterousteen/fast-react-pizza/assets/71407842/08dc63dc-509e-438b-a67d-501874b23be1" height="430px" alt="mobile-screenshot">
+<img src="https://github.com/apterousteen/fast-react-pizza/assets/71407842/0d9d071b-4578-4d62-aa9d-364942c949e5" width="73%" alt="desktop-screenshot">
+<img src="https://github.com/apterousteen/fast-react-pizza/assets/71407842/08dc63dc-509e-438b-a67d-501874b23be1" width="25.48%" alt="mobile-screenshot">
 
