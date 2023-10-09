@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,400;0,500;1,300&display=swap');
 
+:root {
+    --accent-color: #fab005;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -15,7 +19,7 @@ body {
     color: #252525;
     font-weight: 400;
     background-color: #f7f2e9;
-    border-bottom: 1.6rem solid #FFCC33;
+    border-bottom: 1.6rem solid var(--accent-color);
     min-height: 100vh;
     padding: 3.2rem;
     padding-bottom: 6rem;
@@ -38,7 +42,7 @@ body {
 }
 
 .header h1 {
-    color: #FFCC33;
+    color: var(--accent-color);
     text-transform: uppercase;
     text-align: center;
     font-size: 5.2rem;
@@ -55,7 +59,7 @@ body {
     content: '';
     height: 3px;
     width: 12rem;
-    background-color: #FFCC33;
+    background-color: var(--accent-color);
     position: absolute;
     top: calc(50% - 1px);
 }
@@ -147,12 +151,12 @@ body {
 }
 
 .pizza.sold-out img {
-    filter: grayscale();
+    filter: grayscale(1);
     opacity: 0.8;
 }
 
 .underlined {
-    border-bottom: #FFCC33 3px solid;
+    border-bottom: var(--accent-color) 3px solid;
 }
 
 /* *************** */
@@ -174,7 +178,7 @@ body {
     border: none;
     font-size: 1.4rem;
     font-weight: 500;
-    background-color: #FFCC33;
+    background-color: var(--accent-color);
     padding: 1.4rem 3.2rem;
     cursor: pointer;
     transition: all 0.2s;
